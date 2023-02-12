@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+     <header>
+        <h2 class="text-5xl text-center mt-6">welcome aser jonno</h2>
+     </header>
+     <main>
+        <section class="mt-12">
+             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                 <div class="bg-green-600 p-8 rounded-lg">
+                    <h4 class="text-2xl">Deposit</h4>
+                 <h2  class="text-5xl">$ <span id="depo-total">00</span></h2>
+                 </div>
+                 <div class="bg-yellow-400 p-8 rounded-lg">
+                    <h4 class="text-2xl"> Witdrow</h4>
+                 <h2 class="text-5xl">$ <span id="witdrow-total">00</span></h2>
+                 </div>
+                 <div class="bg-violet-500 p-8 rounded-lg">
+                    <h4 class="text-2xl">Balance</h4>
+                 <h2 class="text-5xl">$ <span id="Balance-total">1240</span></h2>
+                 </div>
+                 
+             </div>
+        </section>
+        <!-- deposit <section   -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto ">
+                <div class="bg-pink-400 p-8 rounded-lg">
+                   <h4 class="text-2xl text-white">Plz Deposit</h4>
+                   <input class="w-9/12 block mb-2 pl-3" type="text" name="" id="depo-field" placeholder="deposit money">
+                   <button id="btn-deposit" class="bg-amber-600 px-8 py-2 text-white font-medium rounded-lg  hover:bg-sky-700">Deposit</button>
+                </div>
+                <div class="bg-purple-600 p-8 rounded-lg">
+                   <h4 class="text-2xl text-white"> Plz Witdrow</h4>
+                   <input class="w-9/12 block mb-2 pl-3" type="text" name="" id="Witdrow-field" placeholder="Witdrow money">
+                   <button id="btn-witdrow" class="bg-amber-600 px-8 py-2 text-white font-medium rounded-lg  hover:bg-sky-700">Witdrow</button>
+                </div>
+            
+                
+            </div>
+       </section>
+     </main>
+   <script src="deposit.js"></script>
+   <script src="witdrow.js"></script>
+</body>
+</html>
